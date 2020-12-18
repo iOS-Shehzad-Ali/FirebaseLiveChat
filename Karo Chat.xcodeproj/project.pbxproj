@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A5BD27B1EC849680063A20F /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BD27A1EC849680063A20F /* DesignableButton.swift */; };
+		3A5BD27D1EC849F50063A20F /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BD27C1EC849F50063A20F /* DesignableImageView.swift */; };
+		3A5BD27F1EC851DD0063A20F /* CacheOfProfileImageDownloaded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BD27E1EC851DD0063A20F /* CacheOfProfileImageDownloaded.swift */; };
+		3A761BEE1EDC15A5000F98F3 /* SendMessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A761BED1EDC15A5000F98F3 /* SendMessagesVC.swift */; };
+		3A761BF01EDC19B5000F98F3 /* SendMessagesCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A761BEF1EDC19B5000F98F3 /* SendMessagesCollectionCell.swift */; };
+		3A9CFB2A1EC43ED700675976 /* MyChatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CFB291EC43ED700675976 /* MyChatsVC.swift */; };
+		3AB50C071ED48F7A009EAA0C /* Hello123.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB50C061ED48F7A009EAA0C /* Hello123.swift */; };
+		3AB50C091ED4ABDC009EAA0C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB50C081ED4ABDC009EAA0C /* Message.swift */; };
+		3AB50C0B1ED4B36B009EAA0C /* MyChatsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB50C0A1ED4B36B009EAA0C /* MyChatsTableCell.swift */; };
+		3AE278241EC6265B00944978 /* RegisteredUsersTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE278231EC6265B00944978 /* RegisteredUsersTableCell.swift */; };
+		3AE278281EC62B2700944978 /* FetchUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE278271EC62B2700944978 /* FetchUsers.swift */; };
+		3AE2782A1EC634E600944978 /* RegisteredUsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE278291EC634E600944978 /* RegisteredUsersVC.swift */; };
+		3AE3D6621EC3870200383F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3D6611EC3870200383F1F /* AppDelegate.swift */; };
+		3AE3D6641EC3870200383F1F /* LoginSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3D6631EC3870200383F1F /* LoginSignUpVC.swift */; };
+		3AE3D6671EC3870200383F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE3D6651EC3870200383F1F /* Main.storyboard */; };
+		3AE3D6691EC3870200383F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE3D6681EC3870200383F1F /* Assets.xcassets */; };
+		3AE3D66C1EC3870200383F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE3D66A1EC3870200383F1F /* LaunchScreen.storyboard */; };
+		3AE3D6741EC387E300383F1F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AE3D6731EC387E300383F1F /* GoogleService-Info.plist */; };
+		3AF092DD1ED9C65000C68D3E /* Hello1234.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF092DC1ED9C65000C68D3E /* Hello1234.swift */; };
+		3AF092E11ED9F3FF00C68D3E /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF092E01ED9F3FF00C68D3E /* DesignableView.swift */; };
+		3AFD37A71ED34C8A00973C6B /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD37A61ED34C8A00973C6B /* MyProfileVC.swift */; };
+		4FAF6F3F6F89378189180A9E /* Pods_Karo_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 706F65215E19880F77CE25A0 /* Pods_Karo_Chat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22F348611916813B72241CFC /* Pods-Karo Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karo Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Karo Chat/Pods-Karo Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		3A5BD27A1EC849680063A20F /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		3A5BD27C1EC849F50063A20F /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		3A5BD27E1EC851DD0063A20F /* CacheOfProfileImageDownloaded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheOfProfileImageDownloaded.swift; sourceTree = "<group>"; };
+		3A761BED1EDC15A5000F98F3 /* SendMessagesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessagesVC.swift; sourceTree = "<group>"; };
+		3A761BEF1EDC19B5000F98F3 /* SendMessagesCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessagesCollectionCell.swift; sourceTree = "<group>"; };
+		3A9CFB291EC43ED700675976 /* MyChatsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyChatsVC.swift; sourceTree = "<group>"; };
+		3AB50C061ED48F7A009EAA0C /* Hello123.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello123.swift; sourceTree = "<group>"; };
+		3AB50C081ED4ABDC009EAA0C /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		3AB50C0A1ED4B36B009EAA0C /* MyChatsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyChatsTableCell.swift; sourceTree = "<group>"; };
+		3AE278231EC6265B00944978 /* RegisteredUsersTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisteredUsersTableCell.swift; sourceTree = "<group>"; };
+		3AE278271EC62B2700944978 /* FetchUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchUsers.swift; sourceTree = "<group>"; };
+		3AE278291EC634E600944978 /* RegisteredUsersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisteredUsersVC.swift; sourceTree = "<group>"; };
+		3AE3D65E1EC3870200383F1F /* Karo Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Karo Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE3D6611EC3870200383F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AE3D6631EC3870200383F1F /* LoginSignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpVC.swift; sourceTree = "<group>"; };
+		3AE3D6661EC3870200383F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AE3D6681EC3870200383F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AE3D66B1EC3870200383F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AE3D66D1EC3870200383F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE3D6731EC387E300383F1F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3AF092DC1ED9C65000C68D3E /* Hello1234.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello1234.swift; sourceTree = "<group>"; };
+		3AF092E01ED9F3FF00C68D3E /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		3AFD37A61ED34C8A00973C6B /* MyProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		706F65215E19880F77CE25A0 /* Pods_Karo_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Karo_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46F6A24E8AACAA6B5992B1E /* Pods-Karo Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karo Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Karo Chat/Pods-Karo Chat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AE3D65B1EC3870200383F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAF6F3F6F89378189180A9E /* Pods_Karo_Chat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AE278251EC62ADF00944978 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AE278271EC62B2700944978 /* FetchUsers.swift */,
+				3AB50C081ED4ABDC009EAA0C /* Message.swift */,
+				3A5BD27E1EC851DD0063A20F /* CacheOfProfileImageDownloaded.swift */,
+				3AF092E01ED9F3FF00C68D3E /* DesignableView.swift */,
+				3A5BD27A1EC849680063A20F /* DesignableButton.swift */,
+				3A5BD27C1EC849F50063A20F /* DesignableImageView.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3AE278261EC62AE700944978 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3AE3D6631EC3870200383F1F /* LoginSignUpVC.swift */,
+				3A9CFB291EC43ED700675976 /* MyChatsVC.swift */,
+				3AB50C0A1ED4B36B009EAA0C /* MyChatsTableCell.swift */,
+				3AE278291EC634E600944978 /* RegisteredUsersVC.swift */,
+				3AE278231EC6265B00944978 /* RegisteredUsersTableCell.swift */,
+				3AFD37A61ED34C8A00973C6B /* MyProfileVC.swift */,
+				3A761BED1EDC15A5000F98F3 /* SendMessagesVC.swift */,
+				3A761BEF1EDC19B5000F98F3 /* SendMessagesCollectionCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3AE3D6551EC3870200383F1F = {
+			isa = PBXGroup;
+			children = (
+				3AE3D6601EC3870200383F1F /* Karo Chat */,
+				3AE3D65F1EC3870200383F1F /* Products */,
+				79A8A67F9B66ED305FB255D4 /* Pods */,
+				F7DDE4EF1E29A518B003BF2B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3AE3D65F1EC3870200383F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AE3D65E1EC3870200383F1F /* Karo Chat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AE3D6601EC3870200383F1F /* Karo Chat */ = {
+			isa = PBXGroup;
+			children = (
+				3AE278251EC62ADF00944978 /* Model */,
+				3AE278261EC62AE700944978 /* Controller */,
+				3AE3D6611EC3870200383F1F /* AppDelegate.swift */,
+				3AE3D6651EC3870200383F1F /* Main.storyboard */,
+				3AB50C061ED48F7A009EAA0C /* Hello123.swift */,
+				3AF092DC1ED9C65000C68D3E /* Hello1234.swift */,
+				3AE3D6681EC3870200383F1F /* Assets.xcassets */,
+				3AE3D66A1EC3870200383F1F /* LaunchScreen.storyboard */,
+				3AE3D66D1EC3870200383F1F /* Info.plist */,
+				3AE3D6731EC387E300383F1F /* GoogleService-Info.plist */,
+			);
+			path = "Karo Chat";
+			sourceTree = "<group>";
+		};
+		79A8A67F9B66ED305FB255D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22F348611916813B72241CFC /* Pods-Karo Chat.debug.xcconfig */,
+				B46F6A24E8AACAA6B5992B1E /* Pods-Karo Chat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7DDE4EF1E29A518B003BF2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				706F65215E19880F77CE25A0 /* Pods_Karo_Chat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AE3D65D1EC3870200383F1F /* Karo Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE3D6701EC3870200383F1F /* Build configuration list for PBXNativeTarget "Karo Chat" */;
+			buildPhases = (
+				622C65564649DB23913BDCBF /* [CP] Check Pods Manifest.lock */,
+				3AE3D65A1EC3870200383F1F /* Sources */,
+				3AE3D65B1EC3870200383F1F /* Frameworks */,
+				3AE3D65C1EC3870200383F1F /* Resources */,
+				EC29873D387D8180FF73781B /* [CP] Embed Pods Frameworks */,
+				0CF4275616964760AC6EC63A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Karo Chat";
+			productName = "Karo Chat";
+			productReference = 3AE3D65E1EC3870200383F1F /* Karo Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AE3D6561EC3870200383F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Shehzad Ali";
+				TargetAttributes = {
+					3AE3D65D1EC3870200383F1F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = S9R32Q5YDM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3AE3D6591EC3870200383F1F /* Build configuration list for PBXProject "Karo Chat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AE3D6551EC3870200383F1F;
+			productRefGroup = 3AE3D65F1EC3870200383F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AE3D65D1EC3870200383F1F /* Karo Chat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AE3D65C1EC3870200383F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE3D6741EC387E300383F1F /* GoogleService-Info.plist in Resources */,
+				3AE3D66C1EC3870200383F1F /* LaunchScreen.storyboard in Resources */,
+				3AE3D6691EC3870200383F1F /* Assets.xcassets in Resources */,
+				3AE3D6671EC3870200383F1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CF4275616964760AC6EC63A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Karo Chat/Pods-Karo Chat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		622C65564649DB23913BDCBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC29873D387D8180FF73781B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Karo Chat/Pods-Karo Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AE3D65A1EC3870200383F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5BD27D1EC849F50063A20F /* DesignableImageView.swift in Sources */,
+				3A9CFB2A1EC43ED700675976 /* MyChatsVC.swift in Sources */,
+				3A761BF01EDC19B5000F98F3 /* SendMessagesCollectionCell.swift in Sources */,
+				3AFD37A71ED34C8A00973C6B /* MyProfileVC.swift in Sources */,
+				3AE3D6641EC3870200383F1F /* LoginSignUpVC.swift in Sources */,
+				3A761BEE1EDC15A5000F98F3 /* SendMessagesVC.swift in Sources */,
+				3AB50C0B1ED4B36B009EAA0C /* MyChatsTableCell.swift in Sources */,
+				3A5BD27B1EC849680063A20F /* DesignableButton.swift in Sources */,
+				3A5BD27F1EC851DD0063A20F /* CacheOfProfileImageDownloaded.swift in Sources */,
+				3AE3D6621EC3870200383F1F /* AppDelegate.swift in Sources */,
+				3AF092E11ED9F3FF00C68D3E /* DesignableView.swift in Sources */,
+				3AE278281EC62B2700944978 /* FetchUsers.swift in Sources */,
+				3AE2782A1EC634E600944978 /* RegisteredUsersVC.swift in Sources */,
+				3AF092DD1ED9C65000C68D3E /* Hello1234.swift in Sources */,
+				3AB50C091ED4ABDC009EAA0C /* Message.swift in Sources */,
+				3AE278241EC6265B00944978 /* RegisteredUsersTableCell.swift in Sources */,
+				3AB50C071ED48F7A009EAA0C /* Hello123.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3AE3D6651EC3870200383F1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE3D6661EC3870200383F1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AE3D66A1EC3870200383F1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE3D66B1EC3870200383F1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AE3D66E1EC3870200383F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AE3D66F1EC3870200383F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AE3D6711EC3870200383F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F348611916813B72241CFC /* Pods-Karo Chat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S9R32Q5YDM;
+				INFOPLIST_FILE = "Karo Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XperiaTech.Karo-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3AE3D6721EC3870200383F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46F6A24E8AACAA6B5992B1E /* Pods-Karo Chat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S9R32Q5YDM;
+				INFOPLIST_FILE = "Karo Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "XperiaTech.Karo-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AE3D6591EC3870200383F1F /* Build configuration list for PBXProject "Karo Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE3D66E1EC3870200383F1F /* Debug */,
+				3AE3D66F1EC3870200383F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE3D6701EC3870200383F1F /* Build configuration list for PBXNativeTarget "Karo Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE3D6711EC3870200383F1F /* Debug */,
+				3AE3D6721EC3870200383F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AE3D6561EC3870200383F1F /* Project object */;
+}
